@@ -1,0 +1,19 @@
+---
+layout: null
+sitemap:
+exclude: 'yes'
+---
+
+/* TEAM */
+Developer & Designer: Adrian Pacurar
+Site: https://mathybit.github.io/
+Location: Chicago, IL, USA
+						
+/* THANKS */
+Name: Josh Gerdes
+
+/* SITE */
+Last update: {{ site.time | date: "%Y/%m/%d" }}
+Standards: HTML5, CSS3
+Components: Jekyll
+Software: Sublime Text, Photoshop

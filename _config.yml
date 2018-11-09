@@ -1,0 +1,31 @@
+# Site settings
+title: VoyChicago
+description: >- # this means to ignore newlines until "baseurl:"
+  A place you can call home
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://localhost:4000/" # the base hostname & protocol for your site, e.g. http://example.com
+permalink: ':title/'
+
+author:
+  name: 'Nadiya Voytanovych'
+  email: voychicago@gmail.com
+
+# Build settings
+destination: _site
+markdown: kramdown
+highlighter: rouge
+plugins: []
+
+sass:
+    sass_dir: _sass
+    style: compressed
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock']
+include: [_pages]
