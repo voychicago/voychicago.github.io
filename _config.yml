@@ -6,6 +6,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://voychicago.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: ':title/'
 
+google-analytics: "UA-129043396-1"
+
 author:
   name: 'Nadiya Voytanovych'
   email: voychicago@gmail.com
