@@ -980,7 +980,7 @@ h5 {
 	font-size: 1em; }
 
 p {
-	margin-bottom: 1.3em;
+	margin-bottom: 0.6em;
 	line-height: 1.7em; }
 
 strong {
@@ -1471,7 +1471,7 @@ i {
 
 .post-list__divider {
 	width: 30%;
-	margin: 2.2em 0 2.1em 0;
+	margin: 1.2em 0 1.6em 0;
 	border-top: 1px solid #dddddd; }
 
 *:focus {
@@ -1691,4 +1691,23 @@ input[type="tel"] {
 	.btn, .navigation__item a {
 		display: block;
 		margin-bottom: .4em; } }
+
+/* This allows us to include tables containing images and other elements with caption */
+table.table-left {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+}
+table.table-right {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: left;
+}
+table.table-center {
+  /*display: block;*/
+  margin-left: auto;
+  margin-right: auto;
+}
 
